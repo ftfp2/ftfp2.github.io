@@ -1,0 +1,40 @@
+
+table{
+    text-align: center;
+    color: crimson;
+    line-height: 200%;
+}
+
+mark{
+    color: darkorange;
+}
+
+.b_element{
+    color: coral;
+}
+
+h3{
+    color:darkred;
+    font-weight: bold;
+}
+
+p{
+    color:black;
+}
+
+.sup_element{
+    color: red;
+}
+
+footer p{
+    color:red;
+}
+
+head{
+    color: darkcyan;
+}
+
+body {
+    font-family: 'Nunito';
+    font-size: 17px;
+}
