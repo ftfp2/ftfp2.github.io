@@ -1,1 +1,0 @@
-alert("Informations on this website are not real :[")
