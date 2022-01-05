@@ -1,0 +1,126 @@
+/* orlen */
+
+header h1{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    color: darkblue;
+}
+
+#orlen img{
+    position: relative;
+    left: 0px;
+    width: 40%;
+    height: 60%;
+}
+
+#orlen b{
+    font-size: 22px;
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+#orlen{
+    color: rgb(253, 85, 99);
+    font-size: 22px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 180px;
+}
+
+/*ccc*/
+
+#ccc b{
+    font-size: 24px;
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+#ccc{
+    font-size: 22px;
+    color: rgb(92, 0, 0);
+    position: relative;
+    bottom: 15px;
+    left: 50px;
+}
+
+#ccc img{
+    width: 33%;
+    height: 35%;
+    margin-top: 15px;
+}
+
+/*Reszta*/
+
+body{
+    background-color: ghostwhite;
+}
+
+#articles{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.articles_2{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+#article{
+    background-color: white;
+    width: 60%;
+    height: 585px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+/*Alegro*/
+
+#alegro{
+    font-size: 22px;
+    color: rgb(224, 147, 3);
+    margin-top: 100px;
+    margin-left: 180px;
+}
+
+#alegro b{
+    font-size: 24px;
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+.alegro_img{
+    width: 25%;
+    height: 50%;
+    margin-top: 20px;
+}
+
+/* PZU */
+
+.PZU b{
+    text-decoration: underline;
+    font-size: 24px;
+    color: darkgreen;
+}
+
+.PZU{
+    position: relative;
+    top: 96px;
+    right: 135px;
+    color: rgb(0, 108, 216);
+    font-size: 22px;
+    text-align: left;
+}
+
+.PZU img{
+    width: 45%;
+    height: 50%;
+    position: relative;
+    right: 30px;
+}

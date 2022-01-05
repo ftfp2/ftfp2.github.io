@@ -1,3 +1,15 @@
+/* Tak możemy zrobić żeby przesunąć
+header a{
+    margin-right: 50px;
+}*/
+
+/*Ale tak jest bardziej profesjonalnie*/
+header a{
+    position: relative;
+    right: -15px;
+    bottom: 20px;
+    padding: 10px;
+}
 
 table{
     color: rgb(194, 128, 7);
@@ -109,9 +121,12 @@ article{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
-    align-items: center;
+    padding: 26px;
     background-image: linear-gradient(45deg, #EBF9FF, #FFF7F6);
+}
+
+header h1{
+    align-items: center;
 }
 
 /*h5{
@@ -122,8 +137,8 @@ header{
 
 footer{
     position: fixed;
-    left: 0px;
     bottom: 0.1px;
+    left: 0px;
     padding: 0px;
     text-align: center;
     width: 100%;
