@@ -1,0 +1,82 @@
+/*Pierwsza sekcja*/
+
+.dropdown-content a:hover {background-color: rgb(224, 224, 224);}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 110px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px;
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+/* Druga część */
+
+.dropdown_content a:hover {background-color: rgb(224, 224, 244);}
+.main_menu:hover .dropdown_content {display: block;}
+.main_menu:hover .menu {background-color: grey;}
+.dropdown_content a:hover{color: darkgrey;}
+
+.menu{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    position: relative;
+    left: 10px;
+}
+
+.main-menu{
+    position: relative;
+    display: block;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 110px;
+    z-index: 1;
+    position: relative;
+    left: 10px;
+}
+
+.dropdown_content a {
+    padding: 12px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: brown;
+    border: 2px solid black;
+}
+
+
+/*Reszta*/
+
+body{
+   display: flex;
+   /* Dodawanie obrazka do tła */
+   background-image: url("icons8-github-50.png");
+}
